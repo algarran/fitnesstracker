@@ -1,17 +1,23 @@
 {
-  "name": "fitnesstracker",
+  "name": "mongoose_skeleton",
   "version": "1.0.0",
-  "description": "fitness tracker",
+  "description": "",
   "main": "server.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "morgan": "^1.10.0",
-    "mongoose": "^5.9.11"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.3.16",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   },
   "repository": {
     "type": "git",
@@ -21,10 +27,9 @@
     "fitness",
     "tracker"
   ],
-  "author": "Nick Algarra",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/algarran/fitnesstracker/issues"
   },
   "homepage": "https://github.com/algarran/fitnesstracker#readme"
+
 }
